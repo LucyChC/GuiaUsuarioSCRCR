@@ -1,0 +1,21 @@
+site_name: SCRCR - Guía de Usuario
+theme:
+  name: material
+  logo: images/logo.webp
+  language: es
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Inicio: index.md
+  - Acceso al Sistema: acceso.md
+  - Pantalla Principal: dashboard.md
+  - Asociados: asociados.md
+  - Congregados: congregados.md
+  - Eventos y Asistencia: eventos.md
+  - Empleados: empleados.md
+  - Planilla: planilla.md
+  - Actas: actas.md
+  - Reportes: reportes.md
+  - Recomendaciones: recomendaciones.md
