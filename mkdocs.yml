@@ -10,12 +10,15 @@ extra_css:
 nav:
   - Inicio: index.md
   - Acceso al Sistema: acceso.md
-  - Pantalla Principal: dashboard.md
-  - Asociados: asociados.md
+  - Roles de Usuario: roles.md
+  - Menú Principal: dashboard.md
+  - Listado de Asociados: asociados.md
   - Congregados: congregados.md
-  - Eventos y Asistencia: eventos.md
-  - Empleados: empleados.md
+  - Eventos: eventos.md
+  - Gestión de Usuarios: usuarios.md
   - Planilla: planilla.md
-  - Actas: actas.md
   - Reportes: reportes.md
+  - Permisos: permisos.md
+  - Actas: actas.md
+  - Configuración: configuracion.md
   - Recomendaciones: recomendaciones.md

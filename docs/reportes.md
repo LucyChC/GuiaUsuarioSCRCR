@@ -1,31 +1,48 @@
 # Reportes
 
-El módulo de **Reportes** permite generar análisis y resúmenes de la información almacenada en el sistema. Es útil para la toma de decisiones y el seguimiento de resultados.
+## Descripción
 
-## Funciones principales
+El módulo Reportes permite registrar y consultar la asistencia de asociados y congregados en los eventos registrados dentro del sistema.
 
-1. Generar reportes de asociados.
-2. Consultar asistencia a eventos.
-3. Revisar el estado de empleados y planillas.
-4. Obtener listados de actas y documentos.
+![Reportes de Asistencia](images/reportes-principal.png)
 
-## Cómo generar un reporte
+## Funcionalidades Principales
 
-1. Accede a **Reportes** desde el menú principal.
-2. Selecciona el tipo de reporte que necesitas.
-3. Configura los criterios de filtrado (periodo, grupo, estado).
-4. Ejecuta la generación y revisa el resultado.
+- Seleccionar un evento registrado.
+- Registrar asistencia de asociados.
+- Registrar asistencia de congregados.
+- Marcar asistentes como presentes.
+- Marcar asistentes como ausentes.
+- Registrar ausencias justificadas.
+- Consultar estadísticas de asistencia.
+- Buscar participantes por nombre, cédula o ministerio.
 
-## Uso recomendado
+## Uso del módulo
 
-- Utiliza reportes periódicos para supervisar el desempeño.
-- Descarga los resultados cuando necesites compartirlos.
-- Valida los datos antes de tomar decisiones basadas en ellos.
+1. Seleccione el evento correspondiente.
+2. Elija la pestaña **Asociados** o **Congregados**.
+3. Consulte los indicadores de asistencia mostrados por el sistema.
+4. Utilice el buscador para localizar participantes específicos.
+5. Registre la asistencia utilizando las opciones disponibles.
 
-![Reportes SCRCR](images/reportes-scrcr.png)
+### Estados de asistencia
 
-## Buenas prácticas
+El sistema permite registrar los siguientes estados:
 
-1. Programa consultas de reportes en intervalos regulares.
-2. Usa los filtros para enfocar la información según tus necesidades.
-3. Mantén un registro de los reportes más importantes.
+- **Presente:** El participante asistió al evento.
+- **Ausente:** El participante no asistió al evento.
+- **Justificado:** El participante no asistió, pero presentó una justificación válida.
+- **Sin registro:** No se ha registrado asistencia.
+
+## Indicadores mostrados
+
+El sistema presenta estadísticas en tiempo real:
+
+- Total de participantes.
+- Cantidad de presentes.
+- Cantidad de ausentes.
+- Cantidad de justificados.
+- Cantidad sin registro.
+
+!!! note
+    Los cambios realizados en la asistencia se reflejan automáticamente en los indicadores del evento seleccionado.

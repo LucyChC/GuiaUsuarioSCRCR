@@ -1,31 +1,55 @@
-# Eventos y Asistencia
+# Eventos
 
-El módulo de **Eventos y asistencia** permite gestionar actividades y registrar la presencia de los participantes. Está diseñado para facilitar la organización y el seguimiento de cada evento.
+## Descripción
 
-## Funciones principales
+El módulo Eventos permite crear, consultar, modificar y administrar los eventos registrados en el sistema SCRCR.
 
-1. Crear eventos nuevos.
-2. Configurar fechas, horas y lugares.
-3. Registrar la asistencia de asociados y congregados.
-4. Consultar informes de participación.
+![Gestión de Eventos](images/eventos-principal.png)
 
-## Cómo operar el módulo
+## Funcionalidades Principales
 
-1. Accede a **Eventos y asistencia** en el menú principal.
-2. Selecciona **Crear evento** y completa la información básica.
-3. Guarda el evento y verifica que aparezca en la lista.
-4. Durante el evento, ingresa la asistencia correspondiente.
+* Consultar eventos registrados.
+* Buscar eventos por nombre.
+* Filtrar eventos por fecha.
+* Filtrar eventos por estado.
+* Registrar nuevos eventos.
+* Editar eventos existentes.
+* Eliminar eventos.
 
-## Consejos para el registro
+## Uso del módulo
 
-- Define claramente el nombre y la fecha del evento.
-- Asegúrate de asignar el responsable o coordinador.
-- Revisa las listas de asistencia antes y después de cada actividad.
+1. Utilice los filtros de búsqueda para localizar eventos específicos.
+2. Seleccione el rango de fechas deseado para limitar los resultados.
+3. Presione el botón **Nuevo evento** para registrar una nueva actividad.
+4. Utilice la opción **Editar** para modificar un evento existente.
+5. Utilice la opción **Eliminar** para remover eventos que ya no sean necesarios.
 
-![Eventos SCRCR](images/eventos-scrcr.png)
+## Registrar Evento
 
-## Buenas prácticas
+Para crear un nuevo evento, seleccione la opción **Nuevo evento**.
 
-1. Planea con antelación la lista de participantes.
-2. Registra la asistencia de manera ordenada.
-3. Consulta los reportes de eventos para evaluar la participación.
+![Registrar Evento](images/eventos-nuevo.png)
+
+### Información requerida
+
+* Nombre del evento (*)
+* Fecha (*)
+* Hora
+* Estado
+* Descripción
+
+!!! note
+Los campos marcados con un asterisco (*) son obligatorios y deben completarse para registrar el evento.
+
+Una vez completada la información, presione **Crear evento**.
+
+## Editar Evento
+
+Para modificar un evento existente, seleccione la opción **Editar** desde el listado principal.
+
+![Editar Evento](images/eventos-editar.png)
+
+Realice las modificaciones necesarias y presione **Guardar** para actualizar la información.
+
+!!! note
+Verifique la fecha, hora y estado del evento antes de guardar los cambios.

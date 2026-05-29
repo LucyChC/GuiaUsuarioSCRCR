@@ -1,31 +1,47 @@
-# Dashboard
+# Menú Principal
 
-El **Dashboard** es el panel inicial que presenta la información más relevante para el usuario. Desde aquí se obtiene una visión general del estado del sistema y se accede a los módulos principales.
+Esta es la pantalla principal del SCRCR. Desde aquí el usuario puede navegar por los módulos del sistema según los permisos asignados.
 
-## Componentes principales
+## Objetivo
 
-1. Resumen de actividades recientes.
-2. Indicadores clave de gestión.
-3. Accesos directos a módulos importantes.
-4. Alertas y notificaciones.
+Brindar una visión clara de los módulos disponibles y facilitar el acceso rápido a las funciones principales.
 
-## Cómo utilizarlo
+![Menú Principal](images/dashboard-admin.png)
 
-1. Revisa los indicadores de rendimiento al iniciar sesión.
-2. Observa los módulos sugeridos según tu rol.
-3. Identifica mensajes o alertas que requieran atención inmediata.
-4. Haz clic en un elemento para ir al módulo correspondiente.
+## Módulos del menú principal
 
-## Ventajas
+### Inicio
+Muestra la bienvenida, notificaciones generales y accesos rápidos a las funciones más utilizadas.
 
-- Permite una consulta rápida del estado general.
-- Facilita el acceso a tareas frecuentes.
-- Ayuda a priorizar actividades.
+### Listado de Asociados
+Permite consultar y buscar asociados registrados en el sistema.
 
-![Dashboard SCRCR](images/dashboard-scrcr.png)
+### Congregados
+Brinda acceso a la gestión de los congregados y su información de participación.
 
-## Buenas prácticas
+### Eventos
+Facilita la administración de actividades, eventos y el control de asistencia.
 
-1. Consulta el panel diariamente.
-2. Atiende las alertas en orden de importancia.
-3. Usa el dashboard como punto de partida para tus gestiones.
+### Gestión de Usuarios
+Permite crear usuarios, asignar roles, editar datos y controlar accesos.
+
+### Planilla
+Ofrece la consulta de pagos y el seguimiento de los procesos administrativos del personal.
+
+### Reportes
+Genera resúmenes e informes para apoyar la toma de decisiones.
+
+### Permisos
+Permite revisar y gestionar autorizaciones relacionadas con ausencias y permisos especiales.
+
+### Actas
+Facilita el registro de reuniones, acuerdos y observaciones oficiales.
+
+### Configuración
+Ofrece opciones para ajustar parámetros generales del sistema y personalizar el entorno.
+
+### Cerrar Sesión
+Finaliza la sesión activa y protege el acceso al sistema.
+
+!!! Note
+    Las opciones visibles en el menú principal dependen del rol y los permisos asignados a cada usuario.

@@ -1,31 +1,104 @@
 # Planilla
 
-El módulo de **Planilla** gestiona los pagos y prestaciones del personal. Permite revisar información salarial y generar ajustes según los parámetros vigentes.
+## Descripción
 
-## Funciones principales
+El módulo Planilla permite gestionar la información relacionada con empleados, vacaciones, permisos y la generación de planillas mensuales.
 
-1. Consultar registros de planilla.
-2. Generar listados de pagos.
-3. Revisar conceptos de remuneraciones.
-4. Verificar datos asociados a cada empleado.
+![Historial de Planillas](images/planilla-historial.png)
 
-## Cómo utilizar el módulo
+## Funcionalidades Principales
 
-1. Accede a **Planilla** desde el menú principal.
-2. Selecciona el periodo que deseas consultar.
-3. Revisa los detalles de cada empleado y sus conceptos de pago.
-4. Descarga o imprime los listados si necesitas conservarlos.
+* Generar planillas mensuales.
+* Consultar historial de planillas.
+* Gestionar empleados.
+* Registrar vacaciones.
+* Registrar permisos.
+* Exportar información.
 
-## Aspectos importantes
+---
 
-- Comprueba que los datos estén completos antes de generar informes.
-- Confirma los valores asignados a cada concepto.
-- Coordina con el área administrativa cualquier cambio necesario.
+# Historial de Planillas
 
-![Planilla SCRCR](images/planilla-scrcr.png)
+El sistema permite consultar las planillas generadas anteriormente, su estado y el monto total correspondiente.
 
-## Recomendaciones
+![Historial de Planillas](images/planilla-historial.png)
 
-1. Revisa la planilla al finalizar cada período.
-2. Verifica el estado de pagos y cancelaciones.
-3. Mantén actualizada la base de datos de empleados vinculados.
+## Generar Nueva Planilla
+
+Seleccione la opción **Nueva Planilla** para generar una planilla mensual.
+
+![Nueva Planilla](images/planilla-nueva.png)
+
+!!! note
+Los campos marcados con un asterisco (*) son obligatorios.
+
+---
+
+# Empleados
+
+La pestaña Empleados permite administrar la información del personal registrado.
+
+![Listado de Empleados](images/planilla-empleados.png)
+
+## Registrar Empleado
+
+Seleccione la opción **Nuevo Empleado**.
+
+![Nuevo Empleado](images/planilla-empleado-nuevo.png)
+
+Información requerida:
+
+* Nombre (*)
+* Cédula (*)
+* Puesto (*)
+* Salario Base (*)
+* Cuenta Bancaria
+
+## Editar Empleado
+
+Para modificar la información de un empleado seleccione la opción correspondiente desde el listado.
+
+![Editar Empleado](images/planilla-empleado-editar.png)
+
+---
+
+# Vacaciones
+
+La pestaña Vacaciones permite registrar y consultar solicitudes de vacaciones del personal.
+
+![Vacaciones](images/planilla-vacaciones.png)
+
+## Registrar Vacaciones
+
+Seleccione la opción **Registrar Vacación**.
+
+![Registrar Vacaciones](images/planilla-vacaciones-registrar.png)
+
+Información requerida:
+
+* Empleado (*)
+* Cantidad de días (*)
+* Fecha inicial (*)
+* Fecha final (*)
+
+Opcionalmente puede adjuntarse una boleta de vacaciones en formato PDF.
+
+---
+
+# Permisos
+
+La pestaña Permisos permite registrar permisos solicitados por los empleados.
+
+![Registro de Permisos](images/planilla-permisos.png)
+
+Información requerida:
+
+* Empleado (*)
+* Fecha inicial (*)
+* Fecha final (*)
+* Justificación (*)
+
+Opcionalmente puede adjuntarse un documento de respaldo en formato PDF.
+
+!!! note
+Los campos marcados con un asterisco (*) son obligatorios para completar el registro.

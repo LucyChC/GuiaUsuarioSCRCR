@@ -1,31 +1,59 @@
-# Asociados
+# Listado de Asociados
 
-El módulo de **Asociados** gestiona la información de las personas vinculadas al sistema. Aquí se registran, actualizan y consultan datos relevantes de cada asociado.
+## Descripción
 
-## Funciones principales
+El módulo Listado de Asociados permite consultar, buscar y administrar la información de los asociados registrados en el sistema.
 
-1. Crear nuevos asociados.
-2. Buscar asociados existentes.
-3. Actualizar datos personales y de contacto.
-4. Consultar historial de participación.
+![Listado de Asociados](images/asociados-principal.png)
 
-## Uso básico
+## Funcionalidades Principales
 
-1. Accede al módulo **Asociados** desde el menú principal.
-2. Utiliza el campo de búsqueda para localizar un registro.
-3. Haz clic en el asociado deseado para ver sus detalles.
-4. Para agregar uno nuevo, selecciona **Nuevo asociado** y completa los datos requeridos.
+- Consultar asociados registrados.
+- Buscar asociados por nombre, cédula o estado.
+- Exportar información a Excel.
+- Exportar información a PDF.
+- Registrar nuevos asociados.
+- Editar información existente.
+- Activar asociados inactivos.
 
-## Detalles importantes
+## Uso del módulo
 
-- Verifica que la información de contacto sea correcta.
-- Actualiza los datos cuando haya cambios de dirección o teléfono.
-- Revisa el estado de afiliación y las fechas relevantes.
+1. Ingrese los criterios de búsqueda en los filtros disponibles.
+2. Presione **Recargar** para actualizar la información.
+3. Utilice los botones **Excel** o **PDF** para exportar los datos.
+4. Seleccione **Nuevo** para registrar un asociado.
+5. Utilice las acciones disponibles para editar o activar registros.
 
-![Asociados SCRCR](images/asociados-scrcr.png)
+## Registrar Asociado
 
-## Consejos prácticos
+Para registrar un nuevo asociado, seleccione la opción **Nuevo** desde el listado de asociados.
 
-1. Mantén los registros actualizados para mejorar la comunicación.
-2. Usa filtros para ordenar por estado o fecha de ingreso.
-3. Consulta el historial de actividades cuando sea necesario tomar decisiones.
+### Información General
+
+![Registrar Asociado - Datos Generales](images/asociados-registrar-1.png)
+
+Complete la información personal, de contacto y los datos relacionados con la congregación.
+
+### Documentación y Registro
+
+![Registrar Asociado - Documentos](images/asociados-registrar-2.png)
+
+Adjunte la documentación requerida y presione **Registrar** para guardar la información.
+
+!!! note
+    Verifique que los datos ingresados sean correctos antes de finalizar el registro.
+## Editar Asociado
+
+Para modificar la información de un asociado, seleccione la opción Editar desde el listado principal.
+
+![Editar Asociado](images/asociados-editar-1.png)
+
+Complete o modifique los datos requeridos.
+
+![Editar Asociado - Información adicional](images/asociados-editar-2.png)
+
+Finalmente, presione Guardar cambios para actualizar la información.
+
+
+!!! note
+Los campos marcados con un asterisco (*) son obligatorios y deben completarse para poder registrar o actualizar la información del asociado.

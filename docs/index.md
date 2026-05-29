@@ -5,15 +5,17 @@ Bienvenido a la guía de usuario del sistema SCRCR (Sistema de Control y Registr
 ## Estructura de la guía
 
 1. Acceso al Sistema
-2. Dashboard
-3. Asociados
+2. Menú Principal
+3. Listado de Asociados
 4. Congregados
-5. Eventos y Asistencia
-6. Empleados
+5. Eventos
+6. Gestión de Usuarios
 7. Planilla
-8. Actas
-9. Reportes
-10. Recomendaciones
+8. Reportes
+9. Permisos
+10. Actas
+11. Configuración
+12. Recomendaciones
 
 ## Cómo usar esta guía
 
