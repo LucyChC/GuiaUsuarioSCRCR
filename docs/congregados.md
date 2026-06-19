@@ -6,63 +6,93 @@ El módulo Congregados permite registrar, consultar y administrar la informació
 
 ![Gestión de Congregados](images/congregados-principal.png)
 
-## Funcionalidades Principales
+## Funcionalidades principales
 
-* Consultar congregados registrados.
-* Buscar congregados por nombre, cédula o estado.
-* Exportar información a Excel.
-* Exportar información a PDF.
-* Registrar nuevos congregados.
-* Editar información existente.
-* Activar congregados inactivos.
+- Consultar congregados registrados.
+- Buscar congregados por nombre, cédula o estado.
+- Filtrar registros por estado.
+- Exportar información a Excel y PDF.
+- Registrar nuevos congregados.
+- Editar información existente.
+- Activar congregados inactivos.
 
 ## Uso del módulo
 
 1. Ingrese los criterios de búsqueda en los filtros disponibles.
-2. Presione **Recargar** para actualizar la información.
-3. Utilice los botones **Excel** o **PDF** para exportar los datos.
-4. Seleccione **Nuevo** para registrar un congregado.
-5. Utilice las acciones disponibles para editar o activar registros.
+2. Presione **Recargar** para actualizar los resultados.
+3. Use **Limpiar** para restablecer los filtros.
+4. Seleccione **Excel** o **PDF** para exportar la lista.
+5. Presione **Nuevo** para abrir el formulario de registro.
+6. Use **Editar** o **Docs** en la tabla para administrar cada registro.
 
 ## Registrar Congregado
 
-Para registrar un nuevo congregado, seleccione la opción **Nuevo** desde el listado de congregados.
+Para registrar un nuevo congregado, haga clic en **Nuevo** desde el listado.
 
-### Información General
+![Registrar Congregado](images/congregados-registrar.png)
 
-![Registrar Congregado - Datos Generales](images/congregados-registrar-1.png)
+### Campos del formulario
 
-!!! note
-Los campos marcados con un asterisco (*) son obligatorios y deben completarse para poder registrar la información del congregado.
+- **Nombre completo**
+- **Cédula**
+- **Fecha de ingreso a la congregación**
+- **Teléfono**
+- **Segundo teléfono** (opcional)
+- **Estado civil**
+- **Estado** (Activo / Inactivo)
+- **Ministerio**
+- **Segundo ministerio** (opcional)
+- **Foto/documento de cédula** (JPG, PNG, PDF, máx. 10 MB)
+- **Fecha de nacimiento**
+- **Correo electrónico** (opcional)
+- **Oficio o profesión**
+- **Dirección**
+- **Observaciones**
 
-Complete la información personal, de contacto y los datos relacionados con la congregación.
+### Acciones del registro
 
-### Información Complementaria
+- **Cancelar**: Cierra la ventana de registro.
+- **Registrar**: Guarda el nuevo congregado en el sistema.
 
-![Registrar Congregado - Información Adicional](images/congregados-registrar-2.png)
+!!! NOTA
 
-Ingrese la información adicional correspondiente, incluyendo dirección, observaciones y demás datos complementarios.
-
-Finalmente, presione **Registrar** para guardar la información.
+    Los campos marcados con un asterisco (*) son obligatorios y deben completarse para registrar la información del congregado.
 
 ## Editar Congregado
 
-Para modificar la información de un congregado, seleccione la opción **Editar** desde el listado principal.
+Para modificar la información de un congregado, seleccione **Editar** desde el listado principal.
 
-### Modificación de Datos
+![Editar Congregado](images/congregados-editar.png)
 
-![Editar Congregado - Datos Generales](images/congregados-editar-1.png)
+### Qué puede cambiar
 
-Actualice la información requerida según corresponda.
+- Nombre completo
+- Cédula
+- Fecha de ingreso a la congregación
+- Teléfono y segundo teléfono
+- Estado civil
+- Estado (Activo / Inactivo)
+- Ministerio y segundo ministerio
+- Foto/documento de cédula
+- Fecha de nacimiento
+- Correo electrónico
+- Oficio o profesión
+- Dirección
+- Observaciones
 
-### Información Complementaria
+### Acciones de edición
 
-![Editar Congregado - Información Adicional](images/congregados-editar-2.png)
+- **Cancelar**: Deshace los cambios y cierra la ventana.
+- **Guardar cambios**: Actualiza la información del congregado.
 
-Realice los cambios necesarios y presione **Guardar cambios** para actualizar la información.
+!!! NOTA
 
-!!! note
-Los campos marcados con un asterisco (*) son obligatorios. Si alguno de estos campos se encuentra vacío, el sistema no permitirá guardar los cambios realizados.
+    Los campos marcados con un asterisco (*) son obligatorios. Si alguno está vacío, el sistema no permitirá guardar los cambios.
 
-!!! note
-Los permisos disponibles pueden variar según el rol asignado al usuario.
+## Visualizar documentos de un congregado
+
+Para revisar los documentos adjuntos, seleccione **Docs** desde la lista de congregados.
+
+![Documentos](images/congregados-docs.png)
+
+

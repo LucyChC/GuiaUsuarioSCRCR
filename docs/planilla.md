@@ -4,8 +4,6 @@
 
 El módulo Planilla permite gestionar la información relacionada con empleados, vacaciones, permisos y la generación de planillas mensuales.
 
-![Historial de Planillas](images/planilla-historial.png)
-
 ## Funcionalidades Principales
 
 * Generar planillas mensuales.
@@ -17,13 +15,13 @@ El módulo Planilla permite gestionar la información relacionada con empleados,
 
 ---
 
-# Historial de Planillas
+## Historial de Planillas
 
 El sistema permite consultar las planillas generadas anteriormente, su estado y el monto total correspondiente.
 
 ![Historial de Planillas](images/planilla-historial.png)
 
-## Generar Nueva Planilla
+### Generar Nueva Planilla
 
 Seleccione la opción **Nueva Planilla** para generar una planilla mensual.
 
@@ -34,13 +32,13 @@ Los campos marcados con un asterisco (*) son obligatorios.
 
 ---
 
-# Empleados
+## Empleados
 
 La pestaña Empleados permite administrar la información del personal registrado.
 
 ![Listado de Empleados](images/planilla-empleados.png)
 
-## Registrar Empleado
+### Registrar Empleado
 
 Seleccione la opción **Nuevo Empleado**.
 
@@ -54,7 +52,7 @@ Información requerida:
 * Salario Base (*)
 * Cuenta Bancaria
 
-## Editar Empleado
+### Editar Empleado
 
 Para modificar la información de un empleado seleccione la opción correspondiente desde el listado.
 
@@ -62,13 +60,13 @@ Para modificar la información de un empleado seleccione la opción correspondie
 
 ---
 
-# Vacaciones
+## Vacaciones
 
 La pestaña Vacaciones permite registrar y consultar solicitudes de vacaciones del personal.
 
 ![Vacaciones](images/planilla-vacaciones.png)
 
-## Registrar Vacaciones
+### Registrar Vacaciones
 
 Seleccione la opción **Registrar Vacación**.
 
@@ -85,7 +83,7 @@ Opcionalmente puede adjuntarse una boleta de vacaciones en formato PDF.
 
 ---
 
-# Permisos
+## Permisos
 
 La pestaña Permisos permite registrar permisos solicitados por los empleados.
 
